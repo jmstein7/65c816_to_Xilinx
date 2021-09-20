@@ -15,7 +15,7 @@ You can load your programs into RAM as .prg files. Enter "X" at the monitor prom
 
 Run your program by using the address + "R" at the monitor prompt. For example, if you load your program at $1000, you would type 1000R and then enter. Make sure to jump or rts out to $C385 at the end of your program. This is the exit point that will return you to your monitor.
 
-"C" clears the Zero Page and resets the stack.
+"L" clears the Zero Page and resets the stack.
 
 The other monitor function work as a typical WozMon would: (e.g.), https://www.sbprojects.net/projects/apple1/wozmon.php
 
