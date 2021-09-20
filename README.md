@@ -1,5 +1,5 @@
 # 65c816_to_Xilinx
-Connect a 65c816 to a Xilinx CMOD A7 35T using internal SRAM and UART. The 65c816 is the 8/16-bit big brother of the 65c02, used in the SNES and Apple II GS. It also boots in a 65c02 emulation mode, so you can run all your 65c02 code on it ab initio. 
+Connect a 65c816 to a Xilinx CMOD A7 35T using internal SRAM and UART. The 65c816 is the 8/16-bit big brother of the 65c02, used in the SNES and Apple II GS. It also boots in a 65c02 emulation mode, so you can run all your 65c02 code on it ab initio. https://www.westerndesigncenter.com/wdc/documentation/w65c816s.pdf
 
 Right now, you can connect a 65c816 directly to a Xilinx CMOD A7 using the CMOD SRAM and internal UART to communicate with your PC via a terminal program. The CMOD has a small monitor in ROM ($C000-$FFFF), an ACIA at $8000, and RAM from $0000-$7FFF. The LEDs indicate reset status and the e-bit status. The constraints file shows which pins to connect from the 'c816 to the CMOD.
 
