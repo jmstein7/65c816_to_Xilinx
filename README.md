@@ -9,4 +9,4 @@ This design also requires a 1.8432mhz external oscillator (clock) to be connecte
 
 Note: You must clock the device itself ABOVE 2mhz. I've tested it up to 6mhz.
 
-There is a thread discussing this project, with diagrams, at http://forum.6502.org/viewtopic.php?f=1&t=6788
+There is a thread discussing this project, with diagrams, at http://forum.6502.org/viewtopic.php?f=1&t=6788#p87188
