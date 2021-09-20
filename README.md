@@ -18,3 +18,5 @@ Run your program by using the address + "R" at the monitor prompt. For example, 
 "C" clears the Zero Page and resets the stack.
 
 The other monitor function work as a typical WozMon would: (e.g.), https://www.sbprojects.net/projects/apple1/wozmon.php
+
+Feel free to contact me through the 6502 forum: http://forum.6502.org/memberlist.php?mode=viewprofile&u=3597
