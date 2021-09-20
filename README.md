@@ -1,5 +1,5 @@
 # 65c816_to_Xilinx
-Connect a 65c816 to a Xilinx CMOD A7 using internal SRAM and UART
+Connect a 65c816 to a Xilinx CMOD A7 35T using internal SRAM and UART
 
 Right now, you can connect a 65c816 directly to a Xilinx CMOD A7 using the CMOD SRAM and internal UART to communicate with your PC via a terminal program. The CMOD has a small monitor in ROM ($C000-$FFFF), an ACIA at $8000, and RAM from $0000-$7FFF. The LEDs indicate reset status and the e-bit status. The constraints file shows which pins to connect from the 'c816 to the CMOD.
 
