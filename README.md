@@ -13,7 +13,7 @@ There is a thread discussing this project, with diagrams, at http://forum.6502.o
 
 You can load your programs into RAM as .prg files. Enter "X" at the monitor prompt, and you can load your program via the XMODEM protocol. I use ExtraPuTTY. Note: you can control where in RAM your programs load via your .prg files. I've been coding using Visual Studio and RetroAssembler. https://enginedesigns.net/retroassembler/
 
-Run your program by using the address + "R" at the monitor prompt. For example, if you load your program into $1000, you would type 1000R and then enter. Make sure to jump or rts out to $C385 at the end of your program. This is the exit point that will return you to your monitor.
+Run your program by using the address + "R" at the monitor prompt. For example, if you load your program at $1000, you would type 1000R and then enter. Make sure to jump or rts out to $C385 at the end of your program. This is the exit point that will return you to your monitor.
 
 "C" clears the Zero Page and resets the stack.
 
