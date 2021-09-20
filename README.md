@@ -10,3 +10,7 @@ This design also requires a 1.8432mhz external oscillator (clock) to be connecte
 Note: You must clock the device itself ABOVE 2mhz. I've tested it up to 6mhz.
 
 There is a thread discussing this project, with diagrams, at http://forum.6502.org/viewtopic.php?f=1&t=6788#p87188
+
+You can load your programs into RAM as .prg files. Enter "X" at the monitor prompt, and you can load your program via the XMODEM protocol. I use ExtraPuTTY. Note: you can control where in RAM your programs load in your .prg files.
+
+"C" clears the Zero Page and resets the stack.
